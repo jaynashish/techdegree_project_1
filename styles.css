@@ -32,7 +32,7 @@ a:hover {
 /*Nvigation CSS*/
 .main-nav {
   width: 100%;
-  background: black;
+  background: #D0D3D4  ; /*black;*/
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -50,25 +50,31 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: blue;/*white;*/
+    text-transform: uppercase;
+    font-weight:bold;
+    text-decoration-line: underline;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
   transition: all .5s;
+    color:blue;
 }
 .nav a:hover {
-  color: white
+  color: darkblue;/*white*/
 }
 /*Header of the main page has been given class="main_page_header"*/
 .main_page_header {
   text-align: center;
-  background: url('images/backround_header.jpg') no-repeat top center  ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px; 
+  background: url('images/lotus_temple.jpg') no-repeat top center  ;
+  background-size:cover;
+  overflow:hidden;
+  padding-top: 60px;
+    
 }
+
 .main_page_header {
   line-height: 1.5;
 }
@@ -85,7 +91,7 @@ a:hover {
 }
 .main_page_header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
-/*    1.2 5deg*/
+
 }
 .tag {
 /*  background-color: #efefef;*/
@@ -188,6 +194,9 @@ a.social:hover {
     
 }
 .card a{
+    color:blue;
+}
+.card a:hover{
     color:darkblue;
 }
 
@@ -235,16 +244,14 @@ a.social:hover {
 
 
 .body_exp{
-    height:100vh;
+
+    min-height: 100%;
     position:relative;
-    background: url("images/monument-2822073_1280.jpg");
+    background: url("images/qutub_minar.jpg");
     background-size:cover ;
     background-repeat: no-repeat;
     background-position:center;
-    
-   
-/*    background-color:orange;*/
-    
+    margin-top:0px;
 }
 
 .exp_content{
@@ -299,7 +306,7 @@ a.social:hover {
     color:black;
     font-weight:bold;
     text-transform: uppercase;
-    font-size:2rem;
+    font-size:32px;
     margin-bottom:50px;
     background-color: orange;
     text-decoration-line: underline;
